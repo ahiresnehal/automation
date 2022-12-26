@@ -15,7 +15,7 @@ pipeline {
               myapp = docker.build("ahiresnehal/automation:${env.BUILD_ID}")
                 }
             }
-        }
+     
     
       stage("Push image") {
             steps {
